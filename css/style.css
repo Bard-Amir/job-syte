@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #31182D;
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+    height: 3000px;
+    
+    
+
+}
+/* .div{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    filter: blur(100px);
+    border-radius: 200px;
+    background-color: #004137;
+    
+
+} */
+header{
+    margin-top: 77px;
+    margin-bottom: 130px;
+}
+.container{
+    padding: 0px 140px 0px 186px;
+}
+.line-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-link{
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+}
+.header-link-logo{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+}
+.content-div{
+    display: flex;
+}
+.blok-text{
+    margin-top: 38px;
+}
+.h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    margin-bottom: 23px;
+}
+.text-glav{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 35px;
+}
+
+.btn1{
+    background-color: #00DFC0;
+    border-radius: 50px;
+    padding: 12px 45px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border: 1px solid black;
+    margin-left: 27px;
+}
+.btn2{
+    background-color: #31182D;
+    border-radius: 50px;
+    padding: 12px 27px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    border: 1px solid #00DFC0;
+    margin-left: 27px;
+}
+.h3-text{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;   
+   
+}
+.link-company{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 15px;
+    background-color: #52384e57;
+    border-radius: 20px;
+}
+.link-corparat{
+    margin-bottom: 64px;
+}
+.blok-img-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h3-list{
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.blok-text-links{
+    margin: 0;
+    margin-left: 10px;
+}
+.h4-link1{
+    color:white;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0;
+    line-height: 60px;
+}
+.text-link1{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.btn-link1{
+    background-color: #00DFC0;
+    border-radius: 50px;
+    padding: 12px 45px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 3px;
+
+}
+.img-1{
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.content-div-1{
+    display: flex;
+    margin-bottom: 180px;
+}
+.content-div-7{
+    display: flex;
+    margin-bottom: 100px;
+}
+.content-div-3{
+    display: flex;
+    margin-bottom: 60px;
+}
+.img-1-2{margin: 0;
+margin-left: 30px;}
+.coment-div-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.li-user-coment{
+    display: flex;
+    justify-content: space-between;
+    width: 100vh;
+}
+.h5-users{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.h4-users{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+.user{
+    display: inline;
+    width: 200px;
+}
+.h3-user1{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.div-contact-content{
+    background-color: #004137;
+    text-align: center;
+    padding-top: 25px;
+    background-image: linear-gradient(90deg,#004137,#94EADE);
+    border-radius: 18px;
+    height: 306px;
+    position: relative;
+}
+.h1-contact{
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin: 0;
+    
+
+}
+.h3-contact{
+    color: #230A1F;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+}
+.btn-contact{
+    background-color: #000;
+    color: white;
+    padding: 14px 47px;
+    position: absolute;
+    left: 414px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 19px;
+    border-radius: 50px;
+    top: 253px;
+}
